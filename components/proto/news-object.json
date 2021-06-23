@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_proto_news_objects",
+  "info": {
+    "name": "newsObject",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sciences",
+  "info": {
+    "name": "science",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "publishedAt": {
+      "type": "datetime",
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "language": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

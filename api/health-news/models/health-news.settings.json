@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "health_news",
+  "info": {
+    "name": "health-news",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "publishedAt": {
+      "type": "datetime"
+    },
+    "author": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "language": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
